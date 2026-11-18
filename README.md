@@ -96,19 +96,32 @@ Inverse of Matrix A:
  [ 3. -1. -5.]]
 
 Solution of Linear Equation:
-[ 6. -7.  5.]
+[  6.  15. -23.]
 
 Eigenvalues:
-(Values displayed by Python)
+[ 3.91222918  1.28646207 -0.19869124]
 
 Eigenvectors:
-(Values displayed by Python)
+[[-0.51233387 -0.51118241 -0.17058945]
+ [-0.84874276  0.76210326 -0.48349198]
+ [-0.13095702 -0.39735522  0.85856551]]
 
 Pandas DataFrame:
      Name  Marks
 0  Akilan     85
 1    Arun     90
 2   Kumar     80
+
+Statistical Description:
+       Marks
+count    3.0
+mean    85.0
+std      5.0
+min     80.0
+25%     82.5
+50%     85.0
+75%     87.5
+max     90.0
 
 ## Result
 Thus, the NumPy and Pandas libraries were successfully used to perform matrix operations, solve linear equations, calculate eigenvalues and eigenvectors, and create a DataFrame for basic data analysis.
